@@ -1,0 +1,290 @@
+.container {
+   display: flex;
+   height: 100vh;
+   overflow: hidden;
+}
+
+.container-left {
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-left: 280px;
+}
+
+.wrapper-header-table-data {
+   display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+   margin: 0px 32px 16px 32px;
+}
+
+.search-data {
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+
+.search-data input {
+   width: 150px;
+   height: 100%;
+   font-size: 16px;
+   color: var(--text-bgLight-1);
+   background: none;
+   border: none;
+   outline: none;
+}
+
+.search-data input::placeholder {
+   font-size: 16px;
+   color: var(--text-bgLight-3);
+}
+
+.filter-data {
+   position: relative;
+}
+
+.title-menu-filter-data {
+   display: flex;
+   gap: 8px;
+   align-items: center;
+   color: var(--sc2-color10);
+   cursor: pointer;
+}
+
+.filter-data .menu-filter-data {
+   display: none;
+}
+
+.bg-table-data-children, .bg-table-data-caretaker {
+   background: #FDFDFD;
+   box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
+   padding: 0 32px;
+   height: 596px;
+   position: relative;
+}
+
+table .table-title {
+   background-color: var(--bg-ac1);
+   height: 40px;
+}
+
+table, th, td {
+   border-collapse: collapse;
+}
+
+table tr:first-child th:first-child {
+   border-radius: 5px 0px 0px 0px;
+}
+
+table tr:first-child th:last-child {
+   border-radius: 0px 5px 0px 0px;
+}
+
+table tr:last-child td:first-child {
+   border-radius: 0px 0px 0px 5px;
+}
+
+table tr:last-child td:last-child {
+   border-radius: 0px 0px 5px 0px;
+}
+
+table tr th {
+   text-align: start;
+   font-family: 'Rubik';
+   font-weight: 600;
+   font-size: 16px;
+   padding: 0 10px;
+}
+
+table tr {
+   height: 40px;
+}
+
+table tr td {
+   text-align: start;
+   font-family: 'Rubik';
+   font-weight: 400;
+   font-size: 14px;
+   padding: 0 10px;
+}
+
+table .row:nth-child(odd) {
+   background-color: var(--bg-main);
+}
+
+table .row:nth-child(odd) {
+   background-color: var(--bg-color60);
+}
+
+.wrapper-heading-table {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 24px 0;
+}
+
+.wrapper-action-button-table {
+   display: flex;
+   gap: 16px;
+}
+
+.wrapper-heading-table p {
+   font-weight: 500;
+   font-size: 16px;
+   color: var(--text-bgLight-1);
+}
+
+.wrapper-table-data {
+   display: flex;
+   flex-direction: column;
+}
+
+.table-file-content {
+   display: flex;
+   align-items: center;
+   gap: 4px;
+}
+
+table tr td {
+   overflow: hidden;
+   position: relative;
+}
+
+table tr td:first-child, table tr th:first-child {
+   width: 40px;
+}
+
+.table-data-children tr td:last-child{
+   width: 150px;
+}
+
+.footer-table {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   padding-top: 24px;
+}
+
+.footer-table span {
+   font-weight: 400;
+   font-size: 12px;
+   color: var(--text-bgLight-2);
+}
+
+.wrapper-next-and-previous-table {
+   display: flex;
+   align-items: center;
+}
+
+.wrapper-next-and-previous-table button {
+   background: #0185D0;
+   border: none;
+   height: 32px;
+   padding: 0 10px;
+   font-weight: 500;
+   font-size: 16px;
+   color: var(--text-bgDark-1);
+   cursor: pointer;
+}
+
+.wrapper-next-and-previous-table span {
+   line-height: 32px;
+   text-align: center;
+   width: 32px;
+   height: 32px;
+   font-weight: 500;
+   font-size: 16px;
+   color: var(--text-bgLight-1);
+   background: var(--bg-ac2);
+}
+
+.wrapper-next-and-previous-table button:first-child {
+   border-radius: 5px 0px 0px 5px;
+}
+
+.wrapper-next-and-previous-table button:last-child {
+   border-radius: 0px 5px 5px 0px;
+}
+
+.display-null {
+   background: var(--bg-color60);
+   height: 32px;
+   width: 100%;
+   display: flex;
+}
+
+.table-action-content {
+   display: flex;
+   gap: 8px;
+}
+
+/* DetailMahasiswa */
+.wrapper-detail-mahasiswa {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 32px;
+}
+
+.wrapper-heading-table a {
+   text-decoration: none;
+   color: black;
+}
+
+.wrapper-heading-table a:hover {
+   text-decoration: none;
+   color: var(--pr-color30);
+}
+
+.content-detail-mahasiswa {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+}
+
+.wrapper-input-section {
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.wrapper-input-section p {
+   font-family: 'Rubik';
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.wrapper-edit-mahasiswa, .wrapper-tambah-mahasiswa {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+	align-items: center;
+   margin-top: 16px
+}
+
+.form-edit-mahasiswa, .form-tambah-mahasiswa {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 16px;
+   margin: 24px 0;
+}
+
+.form-edit-mahasiswa > input, .form-tambah-mahasiswa > input {
+   border:none;
+   outline: none;
+   background:none;
+   font-weight: 400;
+   font-size: 16px;
+   padding-left: 16px;
+   width: 400px;
+   height: 49px;
+   border: 1px solid #004BAE;
+   border-radius: 5px;
+}
+
+.form-edit-mahasiswa button, .form-tambah-mahasiswa button {
+   margin-top: 16px;
+}

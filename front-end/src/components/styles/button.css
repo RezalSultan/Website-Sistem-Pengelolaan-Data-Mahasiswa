@@ -1,0 +1,99 @@
+/* button deafault*/
+.button-primary, .button-small-create, .button-edit, .button-read, .button-delete, .button-medium-tambah, .button-medium-update {
+   outline: none;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 8px;
+   color: var(--text-bgDark-1);
+   font-family: 'Rubik';
+   font-weight: 500;
+   box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
+   transition: all 0.3s ease-in ;
+}
+
+.button-primary:hover, .button-small-create:hover, .button-edit:hover,.button-read:hover, .button-delete:hover, .button-medium-tambah:hover, .button-medium-update:hover{
+   transition: all 0.3s ease-in ;
+   cursor: pointer;
+}
+
+/* button long */
+.button-primary {
+   width: 400px;
+   height: 48px;
+   font-size: 20px;
+   background: var(--sc1-color10);
+}
+
+.button-primary:hover {
+   background: #0168A2;
+   box-shadow: 0px 0px 25px rgba(1, 133, 208, 0.5);
+}
+
+/* button medium */
+.button-medium-tambah, .button-medium-update {
+   width: 300px;
+   height: 48px;
+   font-size: 18px;
+}
+
+.button-medium-update {
+   background: var(--sc1-color10);
+}
+
+.button-medium-update:hover {
+   background: #0168A2;
+}
+
+.button-medium-tambah {
+   background: #14AE00;
+}
+
+.button-medium-tambah:hover {
+   background: #0E7A00;
+}
+
+/* button small */
+.button-small-create {
+   width: 150px;
+   height: 32px;
+   font-size: 16px;
+   background: #14AE00;
+}
+
+
+.button-small-create:hover {
+   background: #0E7A00;
+}
+
+/* button action */
+.button-edit, .button-delete, .button-read {
+   width: 34px;
+   height: 32px;
+}
+
+.button-delete {
+   background-color: #AE1E00;
+}
+
+.button-delete:hover {
+   background-color: #7A1500;
+}
+
+.button-edit {
+   background: var(--pr-color30);
+}
+
+.button-edit:hover {
+   background: #00357A;
+}
+
+.button-read{
+   background: var(--sc1-color10);
+}
+
+.button-read:hover {
+   background: #0168A2;
+}
